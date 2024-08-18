@@ -76,7 +76,7 @@ This project showcases both Procedural Programming (POP) and Object-Oriented Pro
 - **Selenium**: Automation tests were written using Selenium to validate the web-based simulation and ensure that all user interactions are functioning as expected.
 - **Flowchart**: A flowchart was created to illustrate the logic and possible states of the pet, ensuring a clear understanding of game progression.
 
-![My Pet](./Project1/Automation test/Untitled.png)
+![My Pet](https://www.flapest.com/wp-content/uploads/2020/12/honey-bee.jpg)
 
 - **HTML & JavaScript**: We developed a web-based simulation of the Pet Adoption Game, allowing users to interact with their virtual pets through a browser interface.
 
