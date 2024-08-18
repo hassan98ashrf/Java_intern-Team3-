@@ -88,6 +88,7 @@ This project showcases both Procedural Programming (POP) and Object-Oriented Pro
 ### Automated Testing
 
 - **Selenium**: Automation tests were written using Selenium to validate the web-based simulation and ensure that all user interactions are functioning as expected.
+[Watch the demo video](https://drive.google.com/file/d/1qB2KjUvkIXTa4xwVn2z3eWEN7Qp-30f7/view?usp=drive_link)
 - **Flowchart**: A flowchart was created to illustrate the logic and possible states of the pet, ensuring a clear understanding of game progression.
 [Flowchart](https://drive.google.com/file/d/1_5Bb0k1DeT6gGXe41EQYP52KALMAdaCw/view?usp=drive_link)
 
