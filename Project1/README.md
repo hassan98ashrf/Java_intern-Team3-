@@ -20,30 +20,42 @@ This project showcases both Procedural Programming (POP) and Object-Oriented Pro
 - **POP & OOP**: The game logic was implemented using both procedural and object-oriented approaches, ensuring that the design is flexible and reusable.
 - **Manual Testing**: Each feature was manually tested to ensure that all edge cases and scenarios are handled correctly.
 
-### Web Simulation
-- **HTML & JavaScript**: We developed a web-based simulation of the Pet Adoption Game, allowing users to interact with their virtual pets through a browser interface.
-- **Flowchart**: A flowchart was created to illustrate the logic and possible states of the pet, ensuring a clear understanding of game progression.
-
 ### Automated Testing
 - **Selenium**: Automation tests were written using Selenium to validate the web-based simulation and ensure that all user interactions are functioning as expected.
+- **Flowchart**: A flowchart was created to illustrate the logic and possible states of the pet, ensuring a clear understanding of game progression.
 
-## Installation
+## Features and Functionality
+### Adopt a Pet
+-**Purpose**: To start the game by adopting a pet.
+-**Process**:
+1.  Name: Enter the name of the pet. This name will be used to identify the pet throughout the game.
+2.	Initial Levels: Set the initial hunger and happiness levels to 50 each.
+3.	Confirmation: The system confirms that the pet has been adopted and is ready to be cared for.
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/username/pet-adoption-game.git
-    cd pet-adoption-game
-    ```
+### Feed the Pet
+-**Purpose**: To increase the pet's hunger level by feeding it.
+-**Process**:
+1.	Increase Hunger: If the pet's hunger level is below 90, feeding it will increase the hunger level by 10.
+2.	Full Condition: If the hunger level is already at 90, the pet is considered full, and no further increase is allowed.
 
-2. **Run the Console Application**:
-    - Compile and run the Java code:
-    ```bash
-    javac PetAdoptionGame.java
-    java PetAdoptionGame
-    ```
+### Play with the Pet
+-**Purpose**: To increase the pet's happiness level by playing with it.
+-**Process**:
+1.	Increase Happiness: If the pet's happiness level is below 90, playing with it will increase the happiness level by 10.
+2.	Satisfaction Condition: If the happiness level is already at 90, the pet is considered too happy, and no further increase is allowed.
 
-3. **Web Simulation**:
-    - Open the `index.html` file in your browser to start the web-based simulation.
+### Check Status
+-**Purpose**: To view the current status of the pet. 
+-**Information Provided**:
+1.	Hunger Level: Displays the current hunger level of the pet.
+2.	Happiness Level: Displays the current happiness level of the pet.
+
+### End Game
+-**Purpose**: To end the game and view the final status of the pet.
+-**Process**:
+1.	Final Status: The system shows the final hunger and happiness levels before ending the game.
+2.	Game Over: The game ends, and the user is informed that the game is over.
+
 
 ## How to Play
 
@@ -56,18 +68,19 @@ This project showcases both Procedural Programming (POP) and Object-Oriented Pro
 
 ### Manual Testing
 - Each feature and interaction was manually tested to ensure proper functionality.
+[Manual test](https://docs.google.com/spreadsheets/d/1kSyavnK3LL2xU1uAcow6kbD7keFH2O3Zy111wen7giA/edit?gid=1726167983#gid=1726167983)
+
 
 ### Automated Testing
-- Selenium was used for automated testing of the web-based simulation, ensuring that user interactions such as feeding and playing with the pet work correctly across different browsers.
-
-## Flowchart
-
-A flowchart was created to outline the game's possible states and transitions. This provides a clear visual of the game logic and helps in both development and testing.
-
+- **Selenium**: Automation tests were written using Selenium to validate the web-based simulation and ensure that all user interactions are functioning as expected.
+- **Flowchart**: A flowchart was created to illustrate the logic and possible states of the pet, ensuring a clear understanding of game progression.[Flowchart](file:///C:/Users/hassa/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Project_1/Adapt%20Diagram.html)
+-**HTML & JavaScript**: We developed a web-based simulation of the Pet Adoption Game, allowing users to interact with their virtual pets through a browser interface.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Contributors
 
-- [Your Name](https://github.com/yourusername)
+- Hassan Ashraf
+- Mohamed Abdelwahed
+- Abraam Sobhy
