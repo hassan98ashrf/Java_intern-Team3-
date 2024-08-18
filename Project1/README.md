@@ -74,9 +74,9 @@ This project showcases both Procedural Programming (POP) and Object-Oriented Pro
 
 ### Automated Testing
 - **Selenium**: Automation tests were written using Selenium to validate the web-based simulation and ensure that all user interactions are functioning as expected.
-- **Flowchart**: A flowchart was created to illustrate the logic and possible states of the pet, ensuring a clear understanding of game progression.[Flowchart](file:///C:/Users/hassa/OneDrive/%D8%B3%D8%B7%D8%AD%20%D8%A7%D9%84%D9%85%D9%83%D8%AA%D8%A8/Project_1/Adapt%20Diagram.html)
-
--**HTML & JavaScript**: We developed a web-based simulation of the Pet Adoption Game, allowing users to interact with their virtual pets through a browser interface.
+- **Flowchart**: A flowchart was created to illustrate the logic and possible states of the pet, ensuring a clear understanding of game progression.
+![My Pet](D:\Java intern\Project1\Automation test\Untitled.png)
+- **HTML & JavaScript**: We developed a web-based simulation of the Pet Adoption Game, allowing users to interact with their virtual pets through a browser interface.
 
 
 ## Contributors
