@@ -1,15 +1,5 @@
-# Java intern
+# OOP code
 
-## Introduction
-Projects of java intern (Abdul8afour)
-
-## Features
-- Pet Adoption Game
-- Personal Finance Tracker Project
-- Multiplication Learning Game
-- Unknown 
-- Unknown 
-- Unknown 
-
+https://github.com/user-attachments/assets/2b478fb9-6da8-4335-9b18-df9b89cdd88e
 
 
