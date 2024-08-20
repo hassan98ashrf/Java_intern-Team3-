@@ -1,15 +1,5 @@
-# Java intern
+# POP code
 
-## Introduction
-Projects of java intern (Abdul8afour)
-
-## Features
-- Pet Adoption Game
-- Personal Finance Tracker Project
-- Multiplication Learning Game
-- Unknown 
-- Unknown 
-- Unknown 
-
+https://github.com/user-attachments/assets/847c2475-248e-47d5-8ff0-7e67cbe5e91f
 
 
