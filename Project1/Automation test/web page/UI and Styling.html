@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 50px;
+        }
+        h1 {
+            color: #333;
+        }
+        .container {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+            display: inline-block;
+            max-width: 400px;
+            width: 100%;
+        }
+        button {
+            padding: 10px 20px;
+            margin: 10px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+        .status {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Pet Adoption Game</h1>
+    <div class="container">
+        <div id="status-message">
+            <p>Welcome to the Pet Adoption Game!</p>
+            <p>Start by adopting a pet.</p>
+        </div>
+
+        <button id="adopt-btn">Adopt a Pet</button>
+        <button id="feed-btn" disabled>Feed the Pet</button>
+        <button id="play-btn" disabled>Play with the Pet</button>
+        <button id="status-btn" disabled>Check Status</button>
+        <button id="end-btn" disabled>End Game</button>
+
+        <div class="status" id="game-status"></div>
+    </div>
+
+    <script src="Game Logic.js"></script>
+
+</body>
+</html>
