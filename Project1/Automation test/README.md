@@ -1,15 +1,11 @@
-# Java intern
+# Flow chart
 
-## Introduction
-Projects of java intern (Abdul8afour)
+![Untitled](https://github.com/user-attachments/assets/435875cc-9bc6-4a8f-8849-98056d507173)
 
-## Features
-- Pet Adoption Game
-- Personal Finance Tracker Project
-- Multiplication Learning Game
-- Unknown 
-- Unknown 
-- Unknown 
 
+
+# Automation test
+
+https://github.com/user-attachments/assets/83adb9aa-10cc-446e-9779-f34dfc8851dc
 
 
