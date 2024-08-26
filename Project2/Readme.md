@@ -78,6 +78,10 @@ Once tasks were assigned, coding began. Developers followed the flowchart, ensur
 3. **Summary**: Review your total income, expenses, and net balance.
 4. **Insights**: Gain insights into your spending habits by reviewing expenses by category.
 
-## 6. Troubleshooting
-- **Invalid Inputs**: Ensure descriptions are clear, amounts are numerical, and categories are correctly spelled.
-- **Sorting Issues**: If sorting doesn’t work as expected, verify the logic and implementation of the sorting feature.
+
+## Contributors
+
+- Hassan Ashraf
+- Abraam Sobhy
+- Mohamed Abdelwahed
+- Soliman Mahmoud
