@@ -54,7 +54,7 @@ The first step in developing the Personal Finance Tracker was to create a flowch
 ### 4.2 Kanban Board
 A Kanban board was created to manage the development tasks. Each team member was assigned tasks based on the board, which tracked the project's progress from initial development to testing.
 
-- **Link to Kanban Board**: [Insert Kanban board link here]
+- **Link to Kanban Board**: [Kanban](https://trello.com/b/w9rc8dkC/second-project)
 
 ### 4.3 Code Implementation
 Once tasks were assigned, coding began. Developers followed the flowchart, ensuring that all system features were implemented as planned.
