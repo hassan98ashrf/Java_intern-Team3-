@@ -1,11 +1,11 @@
 # Flow chart
 
-![Untitled](https://github.com/user-attachments/assets/435875cc-9bc6-4a8f-8849-98056d507173)
 
+![project 2](https://github.com/user-attachments/assets/175ee413-66be-49cf-9620-9b7cb30192b9)
 
 
 # Automation test
 
-https://github.com/user-attachments/assets/83adb9aa-10cc-446e-9779-f34dfc8851dc
 
+https://github.com/user-attachments/assets/e75ef770-2ee0-4b64-bdd7-df6dd971f514
 
