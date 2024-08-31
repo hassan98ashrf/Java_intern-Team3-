@@ -14,20 +14,14 @@ public class POPProjectTwo
     static int transactionCount = 0;
     static Scanner scanner = new Scanner(System.in);
 
-    //get data from user
+
+
     public static void inputTransaction()
     {
         //check there is data
         if (transactionCount < MAX_TRANSACTIONS)
         {
-            System.out.print("Enter description: ");
-            descriptions[transactionCount] = scanner.nextLine();
-            System.out.print("Enter amount: ");
-            amounts[transactionCount] = scanner.nextDouble();
-            scanner.nextLine(); // consume newline
-            System.out.print("Enter category: ");
-            categories[transactionCount] = scanner.nextLine();
-            transactionCount++;
+            getDataFromUser();
         }
         else
         {
@@ -35,42 +29,54 @@ public class POPProjectTwo
         }
     }
 
-    //Showing the data with or without sorting
+    public static void getDataFromUser()
+    {
+        System.out.print("Enter description: ");
+        descriptions[transactionCount] = scanner.nextLine();
+        System.out.print("Enter amount: ");
+        amounts[transactionCount] = scanner.nextDouble();
+        scanner.nextLine(); // consume newline
+        System.out.print("Enter category: ");
+        categories[transactionCount] = scanner.nextLine();
+        transactionCount++;
+    }
+
+
+
     public static void viewTransactions()
     {
-        //check there is data
         if(transactionCount == 0)
         {
             System.out.println("\nThere is no data please enter data !!!!");
         }
         else
         {
-            //print data without sorting
-            System.out.printf("%-20s %-10s %-15s\n", "Description", "Amount", "Category");
-            System.out.println("--------------------------------------------");
-            for (int i = 0; i < transactionCount; i++)
-            {
-                System.out.printf("%-20s %-10.2f %-15s\n", descriptions[i], amounts[i], categories[i]);
-            }
-
-            //ask user if he wants data sorting
-            System.out.print("do you want sort by amount? (yes/no): ");
-            String sortByAmount = scanner.nextLine();
-            if (Objects.equals(sortByAmount, "yes"))
-            {
-                sortTransactionsByAmount();
-                //print data sorting
-                System.out.printf("%-20s %-10s %-15s\n", "Description", "Amount", "Category");
-                System.out.println("--------------------------------------------");
-                for (int i = 0; i < transactionCount; i++)
-                {
-                    System.out.printf("%-20s %-10.2f %-15s\n", descriptions[i], amounts[i], categories[i]);
-                }
-            }
+            printData();
+            printSortingData();
         }
     }
 
-    //sorting method
+    public static void printData()
+    {
+        System.out.printf("%-20s %-10s %-15s\n", "Description", "Amount", "Category");
+        System.out.println("--------------------------------------------");
+        for (int i = 0; i < transactionCount; i++)
+        {
+            System.out.printf("%-20s %-10.2f %-15s\n", descriptions[i], amounts[i], categories[i]);
+        }
+    }
+
+    public static void printSortingData()
+    {
+        System.out.print("do you want sort by amount? (yes/no): ");
+        String sortByAmount = scanner.nextLine();
+        if (Objects.equals(sortByAmount, "yes"))
+        {
+            sortTransactionsByAmount();
+            printData();
+        }
+    }
+
     public static void sortTransactionsByAmount()
     {
         for (int i = 0; i < transactionCount - 1; i++)
@@ -84,7 +90,6 @@ public class POPProjectTwo
         }
     }
 
-    //swaping method
     public static void swap(int i, int j)
     {
         String tempDescription = descriptions[i];
@@ -100,68 +105,78 @@ public class POPProjectTwo
         categories[j] = tempCategory;
     }
 
-    //summery of entery data
+
+
     public static void viewSummary()
     {
-        //check there is data
         if(transactionCount == 0)
         {
             System.out.println("\nThere is no data please enter data !!!!");
         }
         else {
-            //get sum of income and expense
-            double totalIncome = 0, totalExpenses = 0;
-            for (int i = 0; i < transactionCount; i++) {
-                if (amounts[i] > 0) {
-                    totalIncome += amounts[i];
-                } else {
-                    totalExpenses += amounts[i];
-                }
-            }
-            double balance = totalIncome + totalExpenses;
-            System.out.println("\nSummary:");
-            System.out.println("Total Income: $" + totalIncome);
-            System.out.println("Total Expenses: $" + totalExpenses);
-            System.out.println("Balance: $" + balance);
+            getSumOfIncomeAndExpense();
         }
     }
 
+    public static void getSumOfIncomeAndExpense()
+    {
+        double totalIncome = 0, totalExpenses = 0;
+        for (int i = 0; i < transactionCount; i++) {
+            if (amounts[i] > 0) {
+                totalIncome += amounts[i];
+            } else {
+                totalExpenses += amounts[i];
+            }
+        }
+        double balance = totalIncome + totalExpenses;
+        System.out.println("\nSummary:");
+        System.out.println("Total Income: $" + totalIncome);
+        System.out.println("Total Expenses: $" + totalExpenses);
+        System.out.println("Balance: $" + balance);
+    }
 
-    //get insight data
+
+
     public static void getInsights()
     {
-        //check there is data
         if(transactionCount == 0)
         {
             System.out.println("\nThere is no data please enter data !!!!");
         }
         else
         {
-            double totalExpenses = 0;
-            System.out.println("\nSpending Insights by Category:");
-            //get sum of expense
-            for (int i = 0; i < transactionCount; i++)
-            {
-                if (amounts[i] < 0)
-                {
-                    totalExpenses += amounts[i];
-                }
-            }
-            System.out.println("Total expenses : " + (totalExpenses*(-1)));
+            getExpenseData();
+        }
+    }
 
-            //print expense data and there amount and rate
-            DecimalFormat fm = new DecimalFormat("#.00");
-            double num ;
-            for (int i = 0; i < transactionCount; i++)
+    public static void getExpenseData()
+    {
+        double totalExpenses = 0;
+        System.out.println("\nSpending Insights by Category:");
+        //get sum of expense
+        for (int i = 0; i < transactionCount; i++)
+        {
+            if (amounts[i] < 0)
             {
-                if (amounts[i] < 0)
-                {
-                    num = amounts[i]/totalExpenses*100;
-                    System.out.println("Category: " + categories[i] + " - Spent : " + (amounts[i]*(-1)) + "( " + fm.format(num)+ "% of total )");
-                }
+                totalExpenses += amounts[i];
+            }
+        }
+        System.out.println("Total expenses : " + (totalExpenses*(-1)));
+
+        //print expense data and there amount and rate
+        DecimalFormat fm = new DecimalFormat("#.00");
+        double num ;
+        for (int i = 0; i < transactionCount; i++)
+        {
+            if (amounts[i] < 0)
+            {
+                num = amounts[i]/totalExpenses*100;
+                System.out.println("Category: " + categories[i] + " - Spent : " + (amounts[i]*(-1)) + "( " + fm.format(num)+ "% of total )");
             }
         }
     }
+
+
 
 
     public static void main(String[] args) {
