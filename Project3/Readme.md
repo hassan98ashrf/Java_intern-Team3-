@@ -53,7 +53,7 @@ The game offers the following functionalities:
 We started by creating a detailed flowchart to map out the game’s structure and logic, ensuring a clear understanding of the game’s functionality before diving into coding.
 
 ### 2. Task Assignment via Kanban Table
-A Kanban table was created to distribute tasks among team members effectively. Each task was assigned based on individual strengths and workload, ensuring smooth progress and collaboration.(Kanban)[https://trello.com/b/5g5WLibO/third-project]
+A Kanban table was created to distribute tasks among team members effectively. Each task was assigned based on individual strengths and workload, ensuring smooth progress and collaboration.[Kanban](https://trello.com/b/5g5WLibO/third-project)
 
 ### 3. Development
 We then proceeded to code the game, following the flowchart and task assignments. Regular code reviews and discussions were held to maintain code quality and alignment with the project goals.
