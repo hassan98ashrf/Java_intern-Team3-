@@ -46,7 +46,7 @@ We are using a **Kanban table** to distribute tasks among the team:
 - **Task Distribution**: Tasks are broken down into functional components and assigned based on team capacity.
 - **Progress Tracking**: The board is updated regularly to track task status (To Do, In Progress, Done).
 
-Kanban URL: `[Kanban](https://trello.com/b/ujLiM8Zd/fourth-project)`
+Kanban URL: `(https://trello.com/b/ujLiM8Zd/fourth-project)`
 
 ---
 
