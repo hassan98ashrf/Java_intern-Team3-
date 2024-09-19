@@ -8,8 +8,8 @@ Projects of java intern (Abdul8afour)
 - Personal Finance Tracker Project
 - Multiplication Learning Game
 - Library Management System 
-- Unknown 
-- Unknown 
+- Online Shopping Cart System 
+- Hotel Reservation System 
 
 
 
