@@ -25,14 +25,18 @@ The **Online Shopping Cart System** simulates an e-commerce platform where users
 ### 1. Project Planning and Discussions
 We held **two meetings** to discuss project goals, system requirements, and the feature set. The first meeting focused on the high-level design and features. The second meeting focused on the technical details, task assignments, and ensuring code follows SOLID principles.
 
+
+
 ### 2. Task Assignment
-We used a **Kanban board** to assign tasks for better project management and tracking. Here’s the task allocation [ProjectFourUML](https://github.com/user-attachments/assets/7d74005c-cc58-4022-afd2-e091dfc68eab)
+We used a **Kanban board** to assign tasks for better project management and tracking. Here’s the task allocation [Kanban board](https://trello.com/b/WYdMN0XZ/fifth-project)
 
 
 
 ### 3. UML Diagram
 The UML Class Diagram visualized the structure, relationships between classes, and how OOP principles were applied.
-> The UML diagram can be found in `uml/OnlineShoppingCartSystem_UML.png`.
+
+
+
 
 ### 4. Code Implementation
 
@@ -40,6 +44,7 @@ The project follows **SOLID principles**, ensuring each class has a single respo
 - `Product`, `CartItem`, `CartManager`, `CartCalculator`, `OrderManager`, `PaymentProcessor`, and `Discount`.
 
 We use **interfaces** to ensure flexibility and maintainability.
+
 
 
 ### 5. How to Use
@@ -53,6 +58,7 @@ We use **interfaces** to ensure flexibility and maintainability.
     - **5. Apply Discounts**: Apply discount codes to the cart.
     - **6. Order Summary**: View the final order summary and proceed with the payment.
     - **7. Exit**: Exit the application.
+
 
 
 ### 6. Contributors
